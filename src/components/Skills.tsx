@@ -1,13 +1,12 @@
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
-import { Code2, Palette, Rocket, Layers, Sparkles, Zap } from "lucide-react";
-
+import { Code2, Palette, Rocket, Layers, Sparkles, Zap ,Server } from "lucide-react";
 const skills = [
   {
     icon: Code2,
     title: "Frontend Development",
-    description: "React, TypeScript, Next.js, HTML5, CSS3",
+    description: "React (newly learning), TypeScript, HTML5, CSS3, JavaScript",
     color: "text-primary",
   },
   {
@@ -17,30 +16,25 @@ const skills = [
     color: "text-secondary",
   },
   {
-    icon: Rocket,
-    title: "Performance",
-    description: "Optimization, PWAs, Web Vitals, Lazy Loading",
+    icon: Server,
+    title: "Backend & Database",
+    description: "Java, Spring Boot (learning), REST APIs, MySQL, PL/SQL",
     color: "text-accent",
-  },
-  {
-    icon: Layers,
-    title: "State Management",
-    description: "Redux, Context API, Zustand, React Query",
-    color: "text-primary",
-  },
-  {
-    icon: Sparkles,
-    title: "Animations",
-    description: "Framer Motion, GSAP, Three.js, CSS Animations",
-    color: "text-secondary",
   },
   {
     icon: Zap,
-    title: "Modern Tools",
-    description: "Vite, Webpack, Git, VS Code, Chrome DevTools",
+    title: "React & Ecosystem",
+    description: "React Components, JSX, Hooks, Context API, React Router",
+    color: "text-primary",
+  },
+  {
+    icon: Zap,
+    title: "Development Tools",
+    description: "VS Code, Git, Chrome DevTools, Figma for design",
     color: "text-accent",
   },
 ];
+
 
 const Skills = () => {
   const ref = useRef(null);

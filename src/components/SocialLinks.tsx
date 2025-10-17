@@ -7,25 +7,20 @@ const socialLinks = [
   {
     name: "LinkedIn",
     icon: Linkedin,
-    url: "https://linkedin.com",
+    url: "https://www.linkedin.com/in/srinithi-ashokan01/",
     color: "hover:text-secondary hover-glow-cyan",
   },
   {
     name: "GitHub",
     icon: Github,
-    url: "https://github.com",
+    url: "https://github.com/srinithiashoka",
     color: "hover:text-primary hover-glow-violet",
   },
-  {
-    name: "Twitter",
-    icon: Twitter,
-    url: "https://twitter.com",
-    color: "hover:text-accent hover-glow-pink",
-  },
+
   {
     name: "Email",
     icon: Mail,
-    url: "mailto:hello@example.com",
+    url: "mailto:srinithia3012@gmailcom",
     color: "hover:text-secondary hover-glow-cyan",
   },
 ];

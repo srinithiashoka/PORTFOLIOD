@@ -31,15 +31,16 @@ const About = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="space-y-6"
           >
-            <p className="text-lg text-foreground leading-relaxed">
-              I'm a passionate Frontend Developer with a love for creating beautiful, interactive, and user-friendly web applications. With expertise in modern web technologies, I bring ideas to life through clean code and creative design.
-            </p>
-            <p className="text-lg text-muted-foreground leading-relaxed">
-              My journey in web development started with a curiosity for how things work on the internet, and it has evolved into a career where I continuously learn and adapt to new technologies. I specialize in React, TypeScript, and creative animations that make the web more engaging.
-            </p>
-            <p className="text-lg text-muted-foreground leading-relaxed">
-              When I'm not coding, you'll find me exploring new design trends, experimenting with 3D graphics, or contributing to open-source projects. I believe in writing code that not only works but also inspires.
-            </p>
+           <p className="text-lg text-foreground leading-relaxed">
+  I'm an aspiring Frontend Developer, newly learning React, with a strong interest in Java backend development. I enjoy creating interactive and user-friendly web applications while applying my knowledge of UI/UX design to make interfaces visually appealing and intuitive.
+</p>
+<p className="text-lg text-muted-foreground leading-relaxed">
+  Currently, I am working at JB Portals in Training and Development, where I continue to enhance my skills in React, UI/UX design, and web development. My goal is to build applications that are not only functional but also engaging and easy to use.
+</p>
+<p className="text-lg text-muted-foreground leading-relaxed">
+  Outside of work, I like exploring new design trends, experimenting with creative animations, and deepening my understanding of Java backend development. I strive to write code that is efficient, clean, and inspires users.
+</p>
+
           </motion.div>
 
           <motion.div

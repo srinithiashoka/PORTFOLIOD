@@ -9,8 +9,10 @@ const Resume = () => {
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
   const handleDownload = () => {
-    // In a real app, this would download the actual resume file
-    alert("Resume download started! (This is a demo)");
+    const link = document.createElement("a");
+    link.href = "/Srinithi_Resume.pdf"; // Make sure this matches your file name in /public
+    link.download = "Srinithi_Resume.pdf";
+    link.click();
   };
 
   return (
@@ -25,13 +27,13 @@ const Resume = () => {
             <div className="inline-block p-4 bg-primary/10 rounded-2xl mb-6">
               <FileText size={48} className="text-primary" />
             </div>
-            
+
             <h2 className="text-3xl md:text-5xl font-bold gradient-text mb-6">
               Download My Resume
             </h2>
-            
+
             <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
-              Want to know more about my experience, education, and qualifications? 
+              Want to know more about my experience, education, and qualifications?
               Download my resume to get the full picture of my professional journey.
             </p>
 
