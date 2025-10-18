@@ -41,7 +41,7 @@ const Header = () => {
 
           {/* Navigation */}
           <nav className="hidden md:flex items-center gap-8">
-            {["Home", "About", "Skills", "Projects", "Resume", "Contact"].map((item, index) => (
+            {["Home", "About", "Skills", "Experience", "Education", "Certificates", "Projects", "Resume", "Contact"].map((item, index) => (
               <motion.button
                 key={item}
                 initial={{ opacity: 0, y: -20 }}

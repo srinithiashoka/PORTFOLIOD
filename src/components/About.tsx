@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
-import FloatingCube from "./FloatingCube";
+import FloatingLaptop from "./FloatingLaptop";
 
 const About = () => {
   const ref = useRef(null);
@@ -49,7 +49,7 @@ const About = () => {
             transition={{ duration: 0.8, delay: 0.4 }}
             className="relative"
           >
-            <FloatingCube />
+            <FloatingLaptop />
           </motion.div>
         </div>
       </div>
