@@ -33,7 +33,7 @@ const Hero = () => {
                 Srinithi
               </h1>
               <p className="text-xl md:text-2xl text-primary font-medium">
-                Frontend Developer & Creative Coder
+                Frontend Developer & Java Full Stack Developer
               </p>
             </motion.div>
 
@@ -43,7 +43,7 @@ const Hero = () => {
               transition={{ delay: 0.4 }}
               className="text-base md:text-lg text-muted-foreground max-w-xl"
             >
-              Crafting beautiful, interactive web experiences with modern technologies and creative solutions.
+              Building beautiful, interactive web experiences with modern technologies, creative solutions, and Java Full Stack expertise.
             </motion.p>
 
             <motion.div
