@@ -30,10 +30,10 @@ const Contact = () => {
 
     try {
     emailjs.sendForm(
-  "service_5xlj86o",      // ✅ Your EmailJS Service ID
-  "template_rt7arsj",     // ✅ Correct Template ID
+  "service_5xlj86o",      
+  "template_rt7arsj",     
   ref.current,
-  "OTZOhX3xlL-8L5olI"     // ✅ Your Public Key
+  "OTZOhX3xlL-8L5olI"     
 )
 
 

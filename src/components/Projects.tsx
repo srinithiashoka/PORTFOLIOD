@@ -30,14 +30,15 @@ const projects = [
     liveUrl: "https://ecomerces-uip.vercel.app/",
     githubUrl: "https://github.com/srinithiashoka/ecomerces-uip",
   },
+
   {
-  title: "Todo List Web App",
+  title: "Resume Builder Web App",
   description:
-    "A simple and responsive Todo List application built using HTML, CSS, and JavaScript. It allows users to add, edit, and delete tasks with smooth UI interactions.",
-  tags: ["HTML", "CSS", "JavaScript"],
-  gradient: "from-secondary to-accent",
-  liveUrl: "https://srinithiashoka.github.io/To-Do-List/", // 🔹 replace with your actual live URL
-  githubUrl: "https://github.com/srinithiashoka/To-Do-List", // 🔹 replace with your repo link
+    "A modern Resume Builder web application built using React, TypeScript, Tailwind CSS, and shadcn-ui. It allows users to create, customize, and download professional, ATS-friendly resumes in real time with multiple templates and an intuitive interface.",
+  tags: ["React", "TypeScript", "Tailwind CSS", "shadcn-ui", "Vite"],
+  gradient: "from-indigo-500 to-purple-500",
+  liveUrl: "https://resume-builder-ten-cyan.vercel.app/", // ✅ Live deployed site
+  githubUrl: "https://github.com/srinithiashoka/Resume_Builder", // ✅ GitHub repository
 },
 
 ];
